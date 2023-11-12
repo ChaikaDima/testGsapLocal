@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="gsap.min.js" defer></script>
+    <script src="ScrollTrigger.min.js" defer></script>
+    <script src="ScrollSmoother.min.js" defer></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="hero-section">
+          <img
+            data-lag=".5"
+            data-speed=".6"
+            class="hero"
+            src="1.png"
+            alt="hero"
+          />
+
+          <div class="container">
+            <div data-speed=".75" class="main-header">
+              <h1 class="main-title">Creative scroll</h1>
+            </div>
+          </div>
+        </header>
+
+        <div class="portfolio">
+          <div class="container">
+            <main class="gallery">
+              <div data-speed=".9" class="gallery__left">
+                <img class="gallery__item" src="3.png" alt="" />
+                <img class="gallery__item" src="4.png" alt="" />
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    Creative floating scroll with amazing parallax effect
+                  </h2>
+                  <p class="text-block__p">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Quisquam vero adipisci ipsa saepe nostrum ad voluptatibus
+                    error accusantium soluta explicabo laudantium deserunt, in
+                    debitis repellendus facilis consectetur, vel, quos fuga!
+                  </p>
+                </div>
+                <img class="gallery__item" src="3.png" alt="" />
+              </div>
+              <div data-speed="1.1" class="gallery__right">
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    Creative floating scroll with amazing parallax effect
+                  </h2>
+                  <p class="text-block__p">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Quisquam vero adipisci ipsa saepe nostrum ad voluptatibus
+                    error accusantium soluta explicabo laudantium deserunt, in
+                    debitis repellendus facilis consectetur, vel, quos fuga!
+                  </p>
+                </div>
+                <img class="gallery__item" src="5.png" alt="" />
+                <img class="gallery__item" src="2.png" alt="" />
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
